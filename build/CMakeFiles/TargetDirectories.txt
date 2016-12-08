@@ -1,0 +1,1 @@
+/home/s1ckb0y/Scrivania/changeStack/changeStack/build/CMakeFiles/chgstack.dir

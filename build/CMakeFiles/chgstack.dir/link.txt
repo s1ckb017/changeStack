@@ -1,0 +1,1 @@
+gcc  -Wall   CMakeFiles/chgstack.dir/home/s1ckb0y/Scrivania/changeStack/changeStack/src/chstack.c.o CMakeFiles/chgstack.dir/home/s1ckb0y/Scrivania/changeStack/changeStack/src/main.c.o  -o /home/s1ckb0y/Scrivania/changeStack/changeStack/bin/chgstack -rdynamic 

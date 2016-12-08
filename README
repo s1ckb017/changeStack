@@ -1,0 +1,5 @@
+Simple program to change itself stack. 
+It finds through /proc/pid/maps start address and end address of stack
+afterwards it creates a memory area of (end_stack - start_stack) bytes and copy all content of stack in memory area before created. 
+Finally it swaps values of register rsp and rbp to set registers to new stack values.  
+This program works only on x86-64 architecture.

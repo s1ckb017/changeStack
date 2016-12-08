@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/chstack.h
+stdio.h
+-
+sys/types.h
+-
+unistd.h
+-
+errno.h
+-
+string.h
+-
+stdlib.h
+-
+sys/mman.h
+-
+
+/home/s1ckb0y/Scrivania/changeStack/changeStack/src/chstack.c
+chstack.h
+/home/s1ckb0y/Scrivania/changeStack/changeStack/src/chstack.h
+
+/home/s1ckb0y/Scrivania/changeStack/changeStack/src/main.c
+stdio.h
+-
+chstack.h
+/home/s1ckb0y/Scrivania/changeStack/changeStack/src/chstack.h
+
