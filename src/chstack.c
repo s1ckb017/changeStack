@@ -1,5 +1,3 @@
-#ifndef CHSTACK_H
-#define CHSTACK_H
 #include "chstack.h"
 
 long int getStackBase(long int * startStack){
@@ -113,4 +111,4 @@ int chgStack(void){
 	return 0;
 }
 
-#endif
+
