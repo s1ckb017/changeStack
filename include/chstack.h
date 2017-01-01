@@ -1,3 +1,6 @@
+#ifndef CHSTACK_H
+#define CHSTACK_H
+
 #include <stdio.h>
 #include <sys/types.h>
 #include <unistd.h>
@@ -16,4 +19,5 @@ long int getStackBase(long int * startStack);
 int swapRegisters(void * newStackAddr, const long int stackBaseAddr, const long int len);
 void * setupNewStack(const long int len);
 int chgStack(void);
+#endif
 
